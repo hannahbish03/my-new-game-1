@@ -12,7 +12,7 @@ public class PlayerActions
     {
 
 
-        player.Components.RigidBody.velocity = Vector2.right;
+        player.Components.Rigidbody2D.velocity = Vector2.right;
 
 
     }
