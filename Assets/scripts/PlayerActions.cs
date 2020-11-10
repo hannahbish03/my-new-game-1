@@ -2,17 +2,30 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerActions1 : MonoBehaviour
+public class PlayerActions
 {
-    // Start is called before the first frame update
-    void Start()
+
+    private Player player;
+
+
+    public void Move(Transform transform)
     {
-        
+
+
+        player.components.rigidBody.velocity = 
+
+
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+
+
+
+
+
 }
+
+
+
+
+
+

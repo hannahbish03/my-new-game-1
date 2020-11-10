@@ -12,8 +12,10 @@ public class Player : MonoBehaviour
 
     private PlayerUtilities utilities;
 
-    private PlayerActions actions; 
-    
+    private PlayerActions actions;
+
+    public PlayerComponents Components { get => components; }
+
     // Start is called before the first frame update
     void Start()
     {
