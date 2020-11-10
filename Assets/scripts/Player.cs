@@ -27,4 +27,27 @@ public class Player : MonoBehaviour
     {
         
     }
+
+    private void FixedUpdate ()
+
+    {
+
+        actions.Move(transform); 
+
+
+
+    }
+
+
+
+
+
+
 }
+
+
+
+
+
+
+
